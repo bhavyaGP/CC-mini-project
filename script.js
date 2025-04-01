@@ -388,12 +388,8 @@ function analyzeAndVisualize() {
 // Set example code
 function setExampleCode() {
     document.getElementById('code-editor').value = `// Example with different function types
-function normalFunction(a, b) {
-    return a + b;
-}
 
-// Shorthand arrow function
-const shortArrow = z => z + 1;
+
 `;
 
     analyzeAndVisualize();
