@@ -392,9 +392,6 @@ function normalFunction(a, b) {
     return a + b;
 }
 
-// Shorthand arrow function
-const shortArrow = z => z + 1;
-`;
 
     analyzeAndVisualize();
 }
